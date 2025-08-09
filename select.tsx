@@ -120,7 +120,7 @@ export default function FormSelect({
         <select
             ref={selectRef}
             className={selectClasses}
-            disabled={locked} // Changed from readOnly to disabled
+            disabled={locked} 
             value={multiple ? undefined : domValue}
             multiple={multiple}
             onChange={handleUpdate}
